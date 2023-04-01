@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contador Regresivo</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- BOOSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    
+
+    <div class="countdown">
+
+        <div>
+            <h1>Nuestra boda</h1>
+            <h2>Esmeralda & Jose</h2>
+        </div>
+
+        <div id="carouselExampleIndicators" class="carousel carousel-dark slide ">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/joven-novia-novio-boda-playa_23-2149044016.avif" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/joven-novia-novio-boda-playa_23-2149044016.avif" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/joven-novia-novio-boda-playa_23-2149044016.avif" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+
+      <h1>Contador Regresivo</h1>
+      <div class="countdown-timer">
+        <div class="timer-block">
+          <span id="days"></span>
+          <span>Días</span>
+        </div>
+        <div class="timer-block">
+          <span id="hours"></span>
+          <span>Horas</span>
+        </div>
+        <div class="timer-block">
+          <span id="minutes"></span>
+          <span>Minutos</span>
+        </div>
+        <div class="timer-block">
+          <span id="seconds"></span>
+          <span>Segundos</span>
+        </div>
+      </div>
+      <p>Te invitamos a festejar nuestra union matrimonial el dia 13 de mayo del 2023 a las 14:00 hrs</p>
+    </div>
+
+    <script src="script.js"></script>
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+  </body>
+</html>
